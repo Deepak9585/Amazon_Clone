@@ -1,0 +1,126 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background and center the login container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top:50px;
+}
+
+/* Title of the login form */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for input fields */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.input-group input:focus {
+    border-color: #ffa500; /* Amazon color */
+}
+
+/* Forgot password link style */
+.forgot-password {
+    text-align: right;
+    padding-bottom:15px;
+}
+
+.forgot-password a {
+    font-size: 12px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Submit button style */
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    background-color: orange; /* Amazon button color */
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #ff7f00;
+}
+
+/* New to Amazon section */
+.new-to-amazon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-to-amazon a {
+    font-size: 14px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.new-to-amazon a:hover {
+    text-decoration: underline;
+}
+
+.img{
+  width: 200px;
+  height: 90px;
+  padding-top: 20px;
+ 
+  
+  
+}
+img{
+    width: 150px;
+    height: 50px;
+    background-position: center;
+    padding-top: 10px;
+    
+}
